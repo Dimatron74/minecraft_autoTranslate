@@ -1,2 +1,2 @@
 # minecraftTranslate
- fqtquests and puffskills autotranslate
+ fqtquests and puffish_skills autotranslate
