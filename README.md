@@ -1,5 +1,5 @@
-# minecraftTranslate
- fqtquests and puffish_skills autotranslate
+# MinecraftAutoTranslate
+ `fqtquests` and `puffish_skills` autotranslate
 
 An auto-translator for snbt and json format files, specifically for ftbquests and puffish skills. 
 
