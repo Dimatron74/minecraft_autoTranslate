@@ -1,0 +1,1903 @@
+{
+    "health+10%": {
+        "title": "牢 §c+2.5% §7Maximum Health",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/health.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.max_health",
+                    "value": 0.025,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#ff00a6",
+        "metadata": {
+            "icon": "7pb0tmzh3a2xteus"
+        }
+    },
+    "ranged_damage+3%": {
+        "title": "",
+        "description": "牢 §3+8% §7Rolling Distance\n牢 §3-5% §7Roll Cooldown",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/dodge_greater.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "combatroll:distance",
+                    "value": 0.08,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "combatroll:recharge",
+                    "value": 0.05,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#639c85",
+        "metadata": {
+            "icon": "9f88jakd7r5i4181"
+        }
+    },
+    "luck+0.25": {
+        "title": "",
+        "description": "牢 §3+4% §7Rolling Distance\n牢 §3-2% §7Roll Cooldown",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/dodge_greater.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "combatroll:distance",
+                    "value": 0.04,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "combatroll:recharge",
+                    "value": 0.02,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#00ff9f",
+        "metadata": {
+            "icon": "npxf3a8d02l1ropw"
+        }
+    },
+    "luck+4": {
+        "title": "§7§lБольшое второе дыхание",
+        "description": "§7Станьте мастером движения, получая дополнительные броски.\n\n§a+2 Броска",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/wayfarer_sneak.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "combatroll:count",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "editor-color": "#60fe01",
+        "metadata": {
+            "icon": "hto0vin9i9ptqzse"
+        }
+    },
+    "jump+8%": {
+        "title": "牢 §3+4% §7Jump Height",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/jump.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_skills:player.jump",
+                    "value": 0.04,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#0031ff",
+        "metadata": {
+            "icon": "1hrwee7u81tpie3b"
+        }
+    },
+    "hothead": {
+        "title": "§e壟 §cFire Archmage",
+        "description": "§7Посвяти себя искусству опасной магии огня, но откажись от знаний об остальных стихиях.\n\n§f縷 §6+6 §7Сила огня\n§f雷 §d+10% §7Шанс критического удара заклинания\n\n§f鹿 §6Преданность огню\n§7Откажись от всех знаний о других видах магии.",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/fire_archmage.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": 6,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": -0.2,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_chance",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00ffe4",
+        "metadata": {
+            "icon": "jlvstamh3i7o5ias"
+        }
+    },
+    "donoharm": {
+        "title": "壟 §6High Priest",
+        "description": "§7Обратитесь к свету, став обладателем чистой святой силы, которая исцелит ваших союзников, но взамен потеряет урон.\n\n§f牢 §c+100% §7Исцеляющая сила\n§f弄 §6-60% §7Физический урон",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/cleric_path.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:healing",
+                    "value": 0.5,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_skills:player.melee_damage",
+                    "value": -0.6,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#9d00ff",
+        "metadata": {
+            "icon": "47p35zypvlpzrd0x"
+        }
+    },
+    "armor+20%": {
+        "title": "§f聾 §e+8% §7Armor Efficiency",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/armor.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.armor",
+                    "value": 0.08,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#474ab8",
+        "metadata": {
+            "icon": "ke3ib6o83u4rmshd"
+        }
+    },
+    "toughness+20%": {
+        "title": "§b聾 §3+5% §7Armor Toughness",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/toughness.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.armor_toughness",
+                    "value": 0.05,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#30ff00",
+        "metadata": {
+            "icon": "7iymm263ogvwi0mx"
+        }
+    },
+    "melee_damage+12%": {
+        "title": "弄 §6+3.5% §7Physical Damage",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/attack.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_damage",
+                    "value": 0.035,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00efff",
+        "metadata": {
+            "icon": "0t1l4wesv67w4zpo"
+        }
+    },
+    "omnivamp": {
+        "title": "§4磊 §4+8% §7Omnivampirism",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/omnivamp.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:life_steal",
+                    "value": 0.08,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00efff",
+        "metadata": {
+            "icon": "4fe9gmscb3uy2jyk"
+        }
+    },
+    "lethality": {
+        "title": "§f磊 §c+3.5% §7Lethality",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/lethality.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "obscure_api:penetration",
+                    "value": 0.08,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00efff",
+        "metadata": {
+            "icon": "4fe9gmscb3uy2jyk"
+        }
+    },
+    "magicpen": {
+        "title": "§b雷 §b+5% §7Магическое проникновение",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/magic_pen.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "obscure_api:penetration",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00efff",
+        "metadata": {
+            "icon": "4fe9gmscb3uy2jyk"
+        }
+    },
+    "path_archer": {
+        "title": "§f凌 §bRanger's Path",
+        "description": "§7Сосредоточенный выживший получает +5% к урону в дальнем бою при использовании луков, арбалетов или огнестрельного оружия.",
+        "size": 1.3,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
+                "available": "prominent_talents:textures/frames/circle.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ranger_path.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "path_rogue": {
+        "title": "§f籠 §cRogue's Path",
+        "description": "§7Искусно владея оружием, вы получаете +5% к скорости и +1 к физическому урону.",
+        "size": 1.3,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
+                "available": "prominent_talents:textures/frames/circle.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/rogue_path.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.movement_speed",
+                    "value": 0.05,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_damage",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "path_fire": {
+        "title": "§f縷 §cПиротехнические знания",
+        "description": "§7Хаотическое знание огня течет по вашим венам, получая +1 к силе огня.",
+        "size": 1.3,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
+                "available": "prominent_talents:textures/frames/circle.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/path_fire.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "path_arcane": {
+        "title": "§f陋 §dЗагадочное знание",
+        "description": "§7Мощные знания текут по вашим венам, получая +1 к Тайной силе.",
+        "size": 1.3,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
+                "available": "prominent_talents:textures/frames/circle.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/path_arcane.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "path_frost": {
+        "title": "§f勒 §bЗамороженные знания",
+        "description": "§7Смертоносное знание ледяной магии течет по вашим венам, получая +1 к Силе Мороза.",
+        "size": 1.3,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
+                "available": "prominent_talents:textures/frames/circle.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/path_frost.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "path_protector": {
+        "title": "§f聾 §6Protector's Path",
+        "description": "§7Рожденный защищать, получает +2,5% к максимальному здоровью, +1 к силе исцеления и +10% к самоисцелению.",
+        "size": 1.3,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/circle_selected.png",
+                "available": "prominent_talents:textures/frames/circle.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/path_protector.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.max_health",
+                    "value": 0.025,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_skills:player.healing",
+                    "value": 0.1,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:healing",
+                    "value": 1,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "ranged_damage+12%": {
+        "title": "§f凌 §2+3% §7Ranged Damage",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ranged.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": 0.03,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#669968",
+        "metadata": {
+            "icon": "0jhcxsny2y0mruvz"
+        }
+    },
+    "attack_speed+6%": {
+        "title": "§f籠 §e+2% §7Haste",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/attack_speed.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_speed",
+                    "value": 0.02,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#ffe500",
+        "metadata": {
+            "icon": "zxactenjj1ajaqye"
+        }
+    },
+    "movement_speed+6%": {
+        "title": "牢 §2+3% §7Movement Speed",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/move_speed.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.movement_speed",
+                    "value": 0.03,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#5aa758",
+        "metadata": {
+            "icon": "545voaik7uzcf3mh"
+        }
+    },
+    "healing+12%": {
+        "title": "§f牢 §c+3% §7Исцеляющая и самоисцеляющая сила",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/healing.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_skills:player.healing",
+                    "value": 0.03,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:healing",
+                    "value": 0.03,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#7f7f7f",
+        "metadata": {
+            "icon": "m8nd3t327jsczqnb"
+        }
+    },
+    "stamina+8%": {
+        "title": "牢 §e+10% §7Stamina",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/stamina.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_skills:player.stamina",
+                    "value": 0.1,
+                    "operation": "multiply_base"
+                }
+            }
+        ],
+        "editor-color": "#ff5300",
+        "metadata": {
+            "icon": "k1xeqvyw9djsf58e"
+        }
+    },
+    "fire+12%": {
+        "title": "",
+        "description": "§f縷 §6+3% §7Fire Power\n§f雷 §d+1% §7Spell Critical Chance",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/fire.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": 0.03,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_chance",
+                    "value": 0.01,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#d3622c",
+        "metadata": {
+            "icon": "k8moz0bep6poeume"
+        }
+    },
+    "frost+12%": {
+        "title": "",
+        "description": "§f勒 §b+3% §7Frost Power\n§f賂 §b+1% §7Spell Haste",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/frost.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": 0.03,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:haste",
+                    "value": 0.01,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00ffff",
+        "metadata": {
+            "icon": "gf315xif2stdqahr"
+        }
+    },
+    "arcane+12%": {
+        "title": "",
+        "description": "§f陋 §d+3% §7Arcane Power\n§c雷 §c+1% §7Spell Critical Damage",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/arcane.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 0.03,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_damage",
+                    "value": 0.01,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#dc23ce",
+        "metadata": {
+            "icon": "3fcigw6fsrjushua"
+        }
+    },
+    "eldritch": {
+        "title": "壟 §dArcane Archmage",
+        "description": "§7Посвятите себя искусству загадочной тайной магии, но откажитесь от знаний об остальных стихиях.\n\n陋 §d+6 §7Тайная сила\n§c雷 §c+25% §7Критический урон заклинанием\n\n§f鹿 §dТайная преданность\n§7Откажитесь от всех знаний о других видах магии.",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/arcane_archmage.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 6,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_damage",
+                    "value": 0.25,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": -0.2,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00ffe4",
+        "metadata": {
+            "icon": "u230reltjteb5x59"
+        }
+    },
+    "flurryofblows": {
+        "title": "§6'Представьте, если бы у меня было настоящее оружие'\n§bТяжелое оружие + Слабоатакующий Ларри",
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "item",
+            "data": {
+                "item": "fishing_rod"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_speed",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_speed",
+                    "value": -0.5,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_damage",
+                    "value": 16,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_damage",
+                    "value": -0.5,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#9d00ff",
+        "metadata": {
+            "icon": "ad1gmexjy6yl7q20"
+        }
+    },
+    "larry": {
+        "title": "§e壟 §6Warrior's Devotion",
+        "description": "§7Значительно увеличивает ваш урон при использовании двуручного оружия за счет ваших магических знаний.\n\n§f弄 §6+10 §7Физический урон\n\n§e鹿 §6Хватка титана\n§7При использовании двуручного оружия:\n§f弄 §6+100% §7Физический урон\n§f籠 §e-300% §7Скорость",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/berserker_path.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_damage",
+                    "value": 10,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#3d72c2",
+        "metadata": {
+            "icon": "hlv0lga5owd0czjk"
+        }
+    },
+    "decayingdevotion": {
+        "title": "§e壟 §cDecaying Devotion",
+        "description": "§7Преданность смерти. Откажитесь от магии тайных и огненных сил, чтобы изучить разлагающуюся магию крови и нечестивости.\n\n§f弄 §6+5 §7Физический урон\n§f綾 §2+5 §7Нечестивая сила\n§f肋 §c+5 §7Сила крови\n\n§f鹿 §cВсадник апокалипсиса\n§7Способности рыцаря смерти и атаки рунным клинком наносят на +50% больше урона при езде на лошади.",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "death_knights:textures/icon/prom_compat/decaying_devotion.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "death_knights:unholy",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "death_knights:blood",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#3d72c2",
+        "metadata": {
+            "icon": "hlv0lga5owd0czjk"
+        }
+    },
+    "grace": {
+        "title": "壟 §bSin'dorei Heritage",
+        "description": "§7Станьте мастером дальнобойного оружия, увеличив скорость натяжения и сделав свои снаряды более смертоносными, за счет снижения эффективности вашей брони.\n\n凌 §2+5 §7Смертоносность снарядов\n凌 §2+10% §7Урон от дальнего боя\n凌 §2+200% §7Обращение с дальнобойным оружием\n§f聾 §e-50% §7Эффективность брони",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/legolas_legacy.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.knockback_resistance",
+                    "value": -1,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": 0.1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": 5,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "zenith_attributes:draw_speed",
+                    "value": 2,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.armor",
+                    "value": -0.5,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "d2mbxjlg2z4ggye3"
+        }
+    },
+    "stalwart": {
+        "title": "壟 §eS'kellak's Blessing",
+        "description": "§7Благословляет вас и вашу броню, обменивая 30% брони на истинное смягчение урона и значительно увеличивая ваше максимальное здоровье.\n\n牢 §c+100 §7Максимальное здоровье\n§a聾 §e+30% §7Смягчение урона\n§f聾 §e-30% §7Эффективность брони",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/berserker_ignore_pain.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.max_health",
+                    "value": 100,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "puffish_skills:player.resistance",
+                    "value": 0.3,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.armor",
+                    "value": -0.3,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.armor_toughness",
+                    "value": -0.3,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#30ff00",
+        "metadata": {
+            "icon": "97dunb1b5x5x8231"
+        }
+    },
+    "iceking": {
+        "title": "壟 §bFrost Archmage",
+        "description": "§7Посвятите себя искусству ледяной магии, но откажитесь от знаний об остальных стихиях.\n\n§f勒 §b+6 §7Сила холода\n§f雷 §d+5% §7Шанс критического удара заклинания\n§c雷 §c+20% §7Урон от критического удара заклинания\n\n§f鹿 §bЛедяная преданность\n§7Откажитесь от всех знаний о других видах магии.",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/frost_archmage.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": 6,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_chance",
+                    "value": 0.05,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "ranged_weapon:damage",
+                    "value": -0.2,
+                    "operation": "multiply_base"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_damage",
+                    "value": 0.2,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": -1,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "editor-color": "#00ffe4",
+        "metadata": {
+            "icon": "sp922cna5stkq2gh"
+        }
+    },
+    "ascendancyCyclonicCleave": {
+        "title": "§f論 §6Cyclonic Cleave",
+        "description": "§7\nЯростно размахивайте оружием вокруг себя, двигаясь вперед, нанося урон ближайшим врагам.\nЭта атака масштабируется с Физическим уроном и Ускорением.\n\n§fꦘ §9Эффекты порчи§7\nУвеличивает урон способностей за каждую 1 порчу.\n\n§fꦙ §930+ Эффект порчи§7\nCyclonic Cleave теперь притягивает к вам врагов, которых он поражает.\n\n§6賂 §8§n25 сек. Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_cyclonic_cleave.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancyCyclonicCleave"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "udrj1ku6qqe174zs"
+        }
+    },
+    "ascendancyCataclysm": {
+        "title": "§f論 §6Cataclysm",
+        "description": "§7\nЗафиксируйте себя на месте, чтобы направить мощное заклинание, которое заставит несколько комет спуститься по линии перед вами.\n\nМасштабируется с наивысшими атрибутами силы заклинания Мороза или Огня.\n\nДлится 3,5 с.\n\n§fꦘ §9Эффекты порчи§7\nУвеличивает частоту комет, позволяя получать больше комет за одно применение.\n\n§fꦙ §930+ Эффект порчи§7\nЗа каждую призванную комету вы получаете заряд Закаленных заклинаний.\n\n§6賂 §8§n70 сек. Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_cataclysm.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancyCataclysm"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "gzln8dz1ob7tivtc"
+        }
+    },
+    "ascendancyRapidfire": {
+        "title": "§f論 §6Rapidfire",
+        "description": "§7\nВойдите в стойку для стрельбы и выпустите шквал стрел.\nВ этой стойке вы можете свободно перемещаться, но не можете совершать другие действия.\nТребуется лук или арбалет в правой руке.\nДлится 6 с.\n\n§fꦘ §9Эффекты порчи§7\nУвеличивает длительность эффекта.\n\n§fꦙ §930+ Эффект порчи§7\nКаждая третья выпущенная стрела теперь дает вам заряд меткости.\n\n§6賂 §8§n30 сек. перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_rapidfire.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancyRapidire"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "5rutvm8ojup6xc0r"
+        }
+    },
+    "ascendancySkywardSunder": {
+        "title": "§f論 §6Skyward Sunder",
+        "description": "§7\nПолучите стек Барьера за стек Могущества на вас и бросьтесь вперед, отбрасывая врагов и выполняя восходящий удар, подбрасывая вас и ваши цели в воздух, прежде чем швырнуть их обратно на землю.\n\nЭта атака масштабируется с наивысшим из ваших атрибутов атаки, дальнего боя или заклинания.\nДлится 3,0 с.\n\n§fꦘ §9Эффекты порчи§7\nУвеличивает урон от способностей.\n\n§fꦙ §930+ Эффект порчи§7\nSkyward Sunder теперь наносит врагам удар во время фазы зарядки с помощью Deathmark.\n\n§6賂 §8§n16 сек. Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_skyward_sunder.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancySkywardSunder"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "u8gmcq8ggpks4zh1"
+        }
+    },
+    "ascendancyRighteousHammers": {
+        "title": "§f論 §6Righteous Hammers",
+        "description": "§7\nПризывает молоты, которые вращаются вокруг вас в течение определенного времени, нанося урон в ближнем бою ближайшим врагам и увеличивая вашу атаку в ближнем бою на 2% за каждый молот.\n\n§fꦘ §9Эффекты порчи§7\nПризывает дополнительный молот за каждые 10 порчи.\n\n§fꦙ §930+ Эффект порчи§7\nПериодически создает дополнительные молоты, которые ищут и бьют близлежащие цели.\n\n§6賂 §8§n60 сек. Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_righteous_hammers.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancyRighteousHammers"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "qxln5dje97r09xoc"
+        }
+    },
+    "ascendancyRighteousShield": {
+        "title": "§f論 §6Righteous Shield",
+        "description": "§7\nПока эта способность находится в слоте, вы создаете стек §6Golden Aegis§7 всякий раз, когда блокируете атаку. Golden Aegis увеличивает силу заклинания исцеления, броню и прочность брони на 1% за стек. Максимум 15 стеков.\n\nАктивация этой способности расходует все стеки Golden Aegis, чтобы проявить щит святой энергии, который можно бросить для различных эффектов в зависимости от потребленных стеков.\n\n§7§6Менее 5 стеков:§7 Щит наносит урон врагам и рикошетит 2 раза.\n§65 стеков:§7 Щит наносит увеличенный урон врагам и рикошетит 5 раз.\n§610 стеков:§7 Щит больше не наносит урон врагам и не рикошетит, а вместо этого пронзает и лечит союзников, через которых проходит.\n§615 Стеков:§7 Щит больше, наносит значительно больше урона и наносит Метку смерти, но больше не рикошетит.§7\n\n§fꦘ §9Эффекты порчи§7\nУвеличивает максимальное количество стеков §6Золотой эгиды§7 на 1 за 10 порчи.\n\n§fꦙ §930+ Эффект порчи§7\nПока эта способность находится в слоте, она теперь пассивно генерирует стеки §aЗолотой эгиды§7.\n\nУрон масштабируется с силой заклинания исцеления.\n\n§6賂 §8§n6s Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_righteous_shield.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancyRighteousShield"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "nrxbkbzylt7mn1by"
+        }
+    },
+    "ascendancyBoneArmor": {
+        "title": "§f論 §6Bone Armor",
+        "description": "§7\nНасмешка над ближайшими врагами и защита себя слоем костей, получая дополнительный слой за каждого насмешанного врага, максимум до 6.\nПолучение урона снимает слой.\n\n§f肋 §c+1 §7Сила крови §8(за стек)\n\n§fꦘ §9Эффекты порчи§7\nУвеличение длительности насмешки.\n\n§fꦙ §930+ Эффект порчи§7\nПомимо насмешки над ближайшими врагами, вы также наносите им слабость.\n\n§6賂 §8§n40 сек. Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_bone_armor.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "ascendancyBoneArmor"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "9tq64hk9w5c6l1w3"
+        }
+    },
+    "warriorTwinstrike": {
+        "title": "§b壟 §9Техники тени",
+        "description": "§7Освойте теневые техники и станьте смертоносным убийцей.\n\n§f籠 §e+35% §7Скорость\n\n§9鹿 §9Slice & Dice\n§7Ваши удары в ближнем бою имеют шанс нанести двойной удар.\nЭтот шанс удваивается для одноручного оружия.",
+        "size": 1.2,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/warrior_twinstrike.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "warriorTwinstrike"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "generic.attack_speed",
+                    "value": 0.35,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "37nn7ezqyjfn7qpm"
+        }
+    },
+    "warriorSwordfall": {
+        "title": "§f鹿 §bS'kellak's Call",
+        "description": "§7Ваши удары в ближнем бою имеют шанс вызвать с неба расплавленный молот, наносящий урон огнем вашей цели и всем ближайшим врагам.\n\nЭтот шанс удваивается для тех, кому суждено Преданность Воина§7.",
+        "size": 1.2,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/warrior_swordfall.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "warriorSwordfall"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "g2lsa11wk5y948of"
+        }
+    },
+    "wayfarerQuickfire": {
+        "title": "§f鹿 §bFocus Zone",
+        "description": "§7После использования способности «Залп» войдите в состояние интенсивной концентрации.\n\nВ состоянии концентрации вы двигаетесь медленнее, натягивая лук, и требуется больше времени, чтобы полностью натянуть тетиву, но при этом наносите значительно больше урона.\n\nЕсли вы используете арбалет, вместо этого немедленно получите «Скрытность и меткость».",
+        "size": 1.2,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/focus.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "wayfarerQuickfire"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "y2rp2hw2nwsuq5bm"
+        }
+    },
+    "initiateEmpower": {
+        "title": "§f鹿 §bEmpower",
+        "description": "§7Шанс при произнесении заклинания получить заряд Настроенности.\n\n§f鹿 §bНастроенность§7\nУвеличивает урон от заклинаний для определенной школы магии на +2% за заряд.",
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/initiate_empower.png"
+            }
+        },
+        "size": 1.2,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "initiateEmpower"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "3iehr8ovagq80w7t"
+        }
+    },
+    "initiateGambit": {
+        "title": "§f鹿 §bКритическое мышление",
+        "description": "§7Снижает урон от заклинания §b雷§7 на -25%, но увеличивает критический урон от заклинания §c雷§7 на +75%.",
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/initiate_gambit.png"
+            }
+        },
+        "size": 1.2,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/diamond_selected.png",
+                "available": "prominent_talents:textures/frames/diamond.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_damage",
+                    "value": 0.75,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:soul",
+                    "value": -0.25,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:healing",
+                    "value": -0.25,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": -0.25,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": -0.25,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:lightning",
+                    "value": -0.25,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": -0.25,
+                    "operation": "multiply_total"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "uebktod6deas5vfs"
+        }
+    },
+    "Elementalist": {
+        "title": "壟 §dKnowledge Of Runes & Stars",
+        "description": "§7Станьте астральным колдуном и получите астральную силу, которая усиливает все стихийные заклинания.\n\n§f稜 §d+3 §7Астральная сила\n§f雷 §d+8% §7Шанс критического удара заклинания\n§c雷 §c+15% §7Критический урон заклинания\n\n§f鹿 §dАстральная сила\n§7Научитесь использовать силу рун и звезд, чтобы усилить свои заклинания, открыв Астральную силу, которая увеличивает силу всех стихийных заклинаний.",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/rune_of_stars.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_chance",
+                    "value": 0.08,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:critical_damage",
+                    "value": 0.15,
+                    "operation": "multiply_total"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:fire",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:arcane",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            },
+            {
+                "type": "puffish_skills:attribute",
+                "data": {
+                    "attribute": "spell_power:frost",
+                    "value": 3,
+                    "operation": "addition"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "7xdv4qj6p7ub866s"
+        }
+    },
+    "bardPassive": {
+        "title": "§b壟 §9A Bard's Tale",
+        "description": "§7Играя на инструментах, вы теперь даете баффы ближайшим игрокам из вашей группы (или союзных групп)\n\nТип инструмента определяет типы предоставляемых баффов:\n\n§6Труба и волынка:§e Мелодия войны\n§7- Увеличивает наносимый урон на +10% и дает Регенерацию.\n§6Диджериду:§e Мелодия защиты\n§7- Уменьшает получаемый урон на 10% и дает Силу.\n§6Флейта: §e Мелодия стремительности\n§7- Увеличивает скорость передвижения на +30% и дает Грацию дельфина.\n§6Лютня: §e Мелодия безопасности\n§7- Исцеляет 10% от максимального здоровья каждую секунду.\n§6Треугольник: §eМелодия жажды крови\n§7- Увеличивает скорость на +20% и наносимый урон на +5%\n§6Фортепиано: §eМелодия концентрации\n§7- Увеличивает скорость на +20% и скорость передвижения на +10%",
+        "size": 1.2,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/fate_selected.png",
+                "available": "prominent_talents:textures/frames/fate.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/melody.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "bardPassive"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "9zmmgyyh97ol8a13"
+        }
+    },
+    "bardActive": {
+        "title": "§f論 §6Dissonance",
+        "description": "§7\nИздайте разрушительный звук, оглушающий ближайших врагов и накладывающий на них негативные эффекты в зависимости от ваших активных мелодий.\n\n§fꦘ §9Эффекты порчи§7\nКаждая единица порчи увеличивает длительность эффекта.\n\n§6賂 §8§n40 сек. Перезарядка§7",
+        "size": 1.4,
+        "frame": {
+            "type": "texture",
+            "data": {
+                "unlocked": "prominent_talents:textures/frames/square_selected.png",
+                "available": "prominent_talents:textures/frames/square.png"
+            }
+        },
+        "icon": {
+            "type": "texture",
+            "data": {
+                "texture": "simplyskills:textures/icons/prom_compat/ascendancy_chainbreaker.png"
+            }
+        },
+        "rewards": [
+            {
+                "type": "puffish_skills:passive_skill",
+                "data": {
+                    "passive_skill": "bardActive"
+                }
+            }
+        ],
+        "metadata": {
+            "icon": "3srmy9kzgdyct1a2"
+        }
+    }
+}
