@@ -164,3 +164,4 @@ cython_debug/
 main/test.py
 main/pk.py
 main/ftbquest_ai.py
+main/files/originals/*
