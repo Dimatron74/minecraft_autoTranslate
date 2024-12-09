@@ -161,6 +161,6 @@ cython_debug/
 
 
 
-/test.py
-/pk.py
-/ftbquest_ai.py
+main/test.py
+main/pk.py
+main/ftbquest_ai.py
